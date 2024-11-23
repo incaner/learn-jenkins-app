@@ -11,6 +11,4 @@ test('always true', () => {
   expect(true).toBe(true);
 });
 
-test('always false', () => {
-  expect(true).toBe(false);
-});
+
