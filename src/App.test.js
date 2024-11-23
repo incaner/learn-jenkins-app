@@ -6,11 +6,3 @@ test('renders learn Jenkins link', () => {
   const linkElement = screen.getByText(/learn Jenkins/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-test('always true', () => {
-  expect(true).toBe(true);
-});
-
-test('this test fails on purpose', () => {
-  expect(true).toBe(false);
-});
