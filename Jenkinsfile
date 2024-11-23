@@ -1,5 +1,5 @@
 pipeline {
-    agent vm1
+    agent any
 
     stages {
         stage('Hello') {
