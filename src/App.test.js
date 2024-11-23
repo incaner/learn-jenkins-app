@@ -15,9 +15,9 @@ test('always true', () => {
   expect(true).toBe(true);
 });
 
-test('this test fails on purpose', () => {
-  expect(true).toBe(false);
-});
+//test('this test fails on purpose', () => {
+//  expect(true).toBe(false);
+//});
 
 //test.skip('this test is skipped', () => {
 //  expect(true).toBe(false);
